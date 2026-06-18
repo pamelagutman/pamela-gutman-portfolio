@@ -12,10 +12,11 @@
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
+
   <header class="site-header">
     <div class="container header-inner">
       <a class="brand" href="/" aria-label="Pamela Gutman home page">
-        <img class="brand-mark" src="/assets/curious-portal.svg" alt="" aria-hidden="true" />
+        <img class="brand-mark" src="/assets/curious-portal.png" alt="" aria-hidden="true" />
         <span class="brand-text">
           <span class="brand-name">Pamela Gutman</span><br />
           <span class="brand-tag">Learning Experience Designer</span>
@@ -33,22 +34,31 @@
   </header>
 
   <main id="main">
-    <section class="hero">
+    <section class="hero hero-home">
       <div class="container hero-grid">
-        <div>
+        <div class="hero-copy">
           <span class="kicker">Learning Experience Designer | Speaker | Builder of Interactive Adventures</span>
-          <h1>Designing learning experiences that help people explore, connect, and discover.</h1>
-          <p class="lead">I build interactive onboarding, training, and speaking experiences that turn complicated territory into something people can navigate with confidence. My work combines learning strategy, storytelling, collaboration, and a healthy respect for puzzles.</p>
+          <h1>Designing learning experiences that help people <span class="accent-purple">explore</span>, <span class="accent-blue">connect</span>, and <span class="accent-teal">discover</span>.</h1>
+          <p class="lead">
+            I build interactive onboarding, training, and speaking experiences that turn new ideas and environments into opportunities for curiosity,
+            connection, and discovery.
+          </p>
           <div class="actions">
             <a class="button" href="/projects/index.html">Explore my work</a>
             <a class="button secondary" href="/speaking.html">Speaking & resources</a>
           </div>
-          <p class="inline-note" style="margin-top:1rem;">Speaker at ATD, The Learning Guild, Learning Solutions, and Learning Leaders Forum.</p>
+          <p class="speaker-line small">Speaker at ATD, The Learning Guild, Learning Solutions, and Learning Leaders Forum.</p>
+          <div class="speaker-strip" aria-label="Selected speaking venues">
+            <span class="speaker-pill">ATD</span>
+            <span class="speaker-pill">The Learning Guild</span>
+            <span class="speaker-pill">Learning Solutions</span>
+            <span class="speaker-pill">Learning Leaders Forum</span>
+          </div>
         </div>
-        <div class="hero-card portrait">
+
+        <div class="hero-card portrait-card">
           <figure>
-            <img src="/assets/portrait-pam.jpg" alt="Professional headshot of Pamela Gutman" class="portrait-photo" />
-            <figcaption>Learning experience designer, speaker, and builder of interactive adventures. Curiosity, collaboration, and discovery are the thread running through the work.</figcaption>
+            <img class="portrait-photo" src="/assets/portrait-pam.jpg" alt="Professional headshot of Pamela Gutman" />
           </figure>
         </div>
       </div>
@@ -56,13 +66,14 @@
 
     <section class="section">
       <div class="container">
-        <div class="section-head">
+        <div class="section-head centered">
           <div>
-            <h2>Featured work</h2>
+            <p class="kicker kicker-centered">Featured work</p>
+            <h2>Selected adventures</h2>
             <p class="muted">Selected public-release projects and presentations, organized as case studies instead of a file cabinet.</p>
           </div>
         </div>
-        <div class="grid cards">
+        <div class="grid cards cards-four">
           <article class="card">
             <img class="card-thumb" src="/assets/online-orientations-title.png" alt="Learning Solutions 2023 title slide for Creating Engaging and Interactive Online Orientations" />
             <div class="card-body">
@@ -123,57 +134,66 @@
       </div>
     </section>
 
-    <section class="section">
-      <div class="container">
-        <div class="section-head">
-          <div>
-            <h2>Speaking highlights</h2>
-            <p class="muted">A few public sessions that show the range of topics I present on.</p>
-          </div>
+    <section class="footer-band" aria-label="Core themes">
+      <div class="container footer-band-grid">
+        <div class="footer-band-item">
+          <span class="footer-band-icon">✦</span>
+          <p>Building adventures.<br />Opening doors.<br />Inspiring discovery.</p>
         </div>
-        <div class="grid cards">
-          <article class="card card-plain">
-            <div class="card-body">
-              <h3>Mission Possible: Energizing Onboarding with an Amazing Race Twist</h3>
-              <p class="meta">ATD International Conference & Expo, 2025</p>
-              <p>Shows the framework, passport structure, live challenge, and key takeaways from the onboarding session.</p>
-            </div>
-          </article>
-          <article class="card card-plain">
-            <div class="card-body">
-              <h3>Puzzles, Portals, and Prototypes: Gamifying Learning with AI</h3>
-              <p class="meta">Learning Guild AI Strategy & Design Online Conference, 2025</p>
-              <p>Focuses on brainstorming, refining, and prototyping gamified learning with generative AI support.</p>
-            </div>
-          </article>
-          <article class="card card-plain">
-            <div class="card-body">
-              <h3>Creating Engaging and Interactive Online Orientations</h3>
-              <p class="meta">Learning Solutions Conference, 2023</p>
-              <p>Highlights spacing, interactivity, connection, and hybrid inclusion in orientation design.</p>
-            </div>
-          </article>
-          <article class="card card-plain">
-            <div class="card-body">
-              <h3>Engaging Onboarding for a Hybrid Environment</h3>
-              <p class="meta">Learning Leaders Online Forum, 2022</p>
-              <p>Shows the research-backed thinking that shaped later onboarding and hybrid experience work.</p>
-            </div>
-          </article>
+        <div class="footer-band-item">
+          <span class="footer-band-icon">✧</span>
+          <p>Curiosity is<br />the best compass.</p>
+        </div>
+        <div class="footer-band-item">
+          <span class="footer-band-icon">◌</span>
+          <p>Great learning<br />happens when people<br />explore together.</p>
+        </div>
+        <div class="footer-band-item">
+          <span class="footer-band-icon">⋆</span>
+          <p>Every experience<br />is a chance to<br />go somewhere new.</p>
         </div>
       </div>
     </section>
   </main>
 
-  <footer>
-    <div class="container footer-grid small">
-      <div>
-        <strong>Pamela Gutman</strong><br />
-        Learning Experience Designer, Speaker, and Builder of Interactive Adventures
+  <footer class="home-footer">
+    <div class="container home-footer-grid">
+      <div class="home-footer-brand">
+        <div class="logo-badge">
+          <img src="/assets/curious-portal.png" alt="" aria-hidden="true" />
+          <div>
+            <strong>Pamela Gutman</strong><br />
+            <span class="brand-tag">Learning Experience Designer</span>
+          </div>
+        </div>
+        <p class="muted home-footer-blurb">Turning new ideas and environments into opportunities for curiosity, connection, and discovery.</p>
       </div>
       <div>
-        <a href="mailto:Pamela.Gutman@gmail.com">Pamela.Gutman@gmail.com</a>
+        <h3 class="footer-heading">Explore</h3>
+        <ul class="footer-links">
+          <li><a href="/about.html">About</a></li>
+          <li><a href="/projects/index.html">Projects</a></li>
+          <li><a href="/speaking.html">Speaking</a></li>
+          <li><a href="/resources/index.html">Resources</a></li>
+          <li><a href="/contact.html">Contact</a></li>
+        </ul>
       </div>
+      <div>
+        <h3 class="footer-heading">Connect</h3>
+        <ul class="footer-links">
+          <li><a href="mailto:Pamela.Gutman@gmail.com">Email</a></li>
+          <li>Speaker inquiries</li>
+          <li>Portfolio feedback</li>
+        </ul>
+      </div>
+      <div>
+        <h3 class="footer-heading">Good to know</h3>
+        <p class="home-footer-blurb">This site is intentionally simple, keyboard-friendly, and designed to keep the focus on the work.</p>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <span>© 2026 Pamela Gutman</span>
+      <span>Built with curiosity and good intentions</span>
     </div>
   </footer>
 </body>
