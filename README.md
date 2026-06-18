@@ -1,5 +1,6 @@
 # Pamela Gutman portfolio starter
 
+Website under construction
 This starter site is built as a static HTML portfolio with an Explorer's Archive theme.
 
 ## What is included
