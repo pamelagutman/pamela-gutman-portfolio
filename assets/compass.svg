@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" role="img" aria-label="Compass emblem">
+  <circle cx="120" cy="120" r="112" fill="none" stroke="#1f2a44" stroke-width="8"/>
+  <circle cx="120" cy="120" r="86" fill="#faf8f2" stroke="#d4a84f" stroke-width="4"/>
+  <path d="M120 34 L150 120 L120 206 L90 120 Z" fill="#4f8c8d" opacity="0.95"/>
+  <path d="M120 52 L140 120 L120 188 L100 120 Z" fill="#1f2a44"/>
+  <circle cx="120" cy="120" r="14" fill="#d4a84f"/>
+  <path d="M120 24 L128 54 L120 48 L112 54 Z" fill="#d4a84f"/>
+  <path d="M120 216 L128 186 L120 192 L112 186 Z" fill="#d4a84f"/>
+  <path d="M24 120 L54 112 L48 120 L54 128 Z" fill="#d4a84f"/>
+  <path d="M216 120 L186 112 L192 120 L186 128 Z" fill="#d4a84f"/>
+</svg>
