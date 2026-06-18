@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">Curious Portal logo</title>
+  <desc id="desc">A silver doorway opening into a purple, blue, and turquoise portal with a small star.</desc>
+  <defs>
+    <linearGradient id="portal" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#7b5cff"/>
+      <stop offset="55%" stop-color="#3f8cff"/>
+      <stop offset="100%" stop-color="#39d0df"/>
+    </linearGradient>
+    <linearGradient id="silver" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#eef2ff"/>
+      <stop offset="100%" stop-color="#b9c1d6"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="8" stdDeviation="14" flood-color="#1f2340" flood-opacity="0.22"/>
+    </filter>
+  </defs>
+
+  <rect width="512" height="512" fill="none"/>
+  <circle cx="256" cy="256" r="214" fill="#ffffff" fill-opacity="0.6"/>
+  <circle cx="256" cy="256" r="184" fill="none" stroke="url(#silver)" stroke-width="16"/>
+
+  <g filter="url(#shadow)">
+    <path d="M202 350V213c0-31 23-59 54-59s54 28 54 59v137H202z" fill="url(#portal)" stroke="url(#silver)" stroke-width="8" stroke-linejoin="round"/>
+    <path d="M228 351V223c0-15 12-27 28-27s28 12 28 27v128H228z" fill="#1f2340" fill-opacity="0.68"/>
+    <path d="M256 168c-15 22-29 48-43 77 15 35 29 65 43 89 14-24 28-54 43-89-14-29-28-55-43-77z" fill="url(#portal)" opacity="0.95"/>
+    <circle cx="256" cy="256" r="25" fill="#f8fafc" opacity="0.9"/>
+  </g>
+
+  <path d="M256 120v32M256 360v32M156 256h32M324 256h32" stroke="url(#silver)" stroke-width="10" stroke-linecap="round"/>
+  <path d="M168 170l22 8-14 14M344 170l-22 8 14 14M168 342l22-8-14-14M344 342l-22-8 14-14" stroke="url(#silver)" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+
+  <circle cx="256" cy="256" r="214" fill="none" stroke="#1f2340" stroke-opacity="0.18" stroke-width="4"/>
+</svg>
