@@ -714,3 +714,41 @@ body {
 .backup-feature-sub{font-size:.7rem;letter-spacing:.11em;color:#d5e4ef;}
 .backup-feature-art-large{border-radius:12px;min-height:310px;}
 .backup-feature-art-large .backup-feature-title{font-size:1.55rem;}
+
+
+/* Portfolio card layout correction (Oct 2026): no extra 100% body height. */
+.grid.cards > .card { min-height: 0; }
+.grid.cards > .card > .card-body {
+  min-height: 0;
+  flex: 1 1 auto;
+}
+.grid.cards > .card > .card-body .card-link { margin-top: auto; }
+/* Keep thumbnails consistent, instead of growing to fill an oversized row. */
+.grid.cards > .card > .card-thumb {
+  height: 215px;
+  aspect-ratio: auto;
+  object-fit: cover;
+  flex: 0 0 auto;
+}
+.grid.cards > .card > .backup-feature-art {
+  height: 215px;
+  min-height: 0;
+  flex: 0 0 auto;
+}
+/* On Selected Adventures, clicking anywhere on a card opens its project. */
+.selected-adventures > .card { position: relative; }
+.selected-adventures > .card .card-link::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+}
+.selected-adventures > .card .card-link:focus-visible {
+  outline: 3px solid var(--accent);
+  outline-offset: 3px;
+}
+/* The Speaking card has TWO destination links; keep both separately clickable. */
+@media (max-width: 600px) {
+  .grid.cards > .card > .card-thumb,
+  .grid.cards > .card > .backup-feature-art { height: 185px; }
+}
