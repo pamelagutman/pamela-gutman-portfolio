@@ -89,3 +89,8 @@ footer .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
   .blank-lines{height:27px;border-bottom:1px solid #9ba8af;background:linear-gradient(to bottom,transparent 13px,#ccd2d7 14px,transparent 15px)}
   .canvas-foot{padding-top:9px;color:#222;font-size:9px}
 }
+
+/* Shared portfolio identity without disrupting the in-game console. */
+.site-nav .logo-mark{color:var(--gold)}
+.studio-credit{color:#c7e9ee;font-weight:650;text-underline-offset:4px;font-size:.84rem;}
+.studio-credit:focus-visible{outline:3px solid #f4c46b;outline-offset:4px;}

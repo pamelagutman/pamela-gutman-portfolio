@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="420" viewBox="0 0 600 420" role="img" aria-label="Decorative sketch map of curiosity: question, explore, create">
+<defs><pattern id="grain" width="25" height="25" patternUnits="userSpaceOnUse"><path d="M24 0V25M0 24H25" stroke="#b2a07d" stroke-width=".45" opacity=".16"/></pattern><pattern id="waves" width="42" height="27" patternUnits="userSpaceOnUse"><path d="M2 14 Q12 5 21 14 T40 14" fill="none" stroke="#7f9ca3" stroke-width=".8" opacity=".35"/></pattern></defs>
+<rect width="600" height="420" fill="#f5e9d3"/><rect x="12" y="12" width="576" height="396" fill="url(#grain)" stroke="#cbb58f" stroke-width="1"/>
+<path d="M320 -25 Q270 55 315 103 Q372 143 335 190 Q292 230 355 281 Q401 320 349 430 L625 430 625 -25Z" fill="#dce3d9" opacity=".7"/>
+<path d="M317 0 Q279 54 308 101 Q357 146 330 191 Q294 229 354 280 Q398 318 350 423" fill="none" stroke="#9caa9c" stroke-width="1.7" stroke-dasharray="5 6"/>
+<g fill="none" stroke="#a58b66" opacity=".55" stroke-width="1.3"><path d="M-10 338 Q54 311 88 341 T191 338 T295 351"/><path d="M-10 360 Q54 334 88 361 T191 359 T295 370"/><path d="M-10 384 Q55 357 92 383 T191 381 T295 395"/><path d="M414 21 Q492 15 550 62 M426 42 Q495 38 568 89"/></g>
+<g fill="none" stroke="#6f7896" stroke-width="2" stroke-linecap="round" stroke-dasharray="4 9" opacity=".85"><path d="M68 275 C99 200 164 250 194 181 S261 117 327 143 S435 165 486 103"/></g>
+<g font-family="Georgia,serif" fill="#435373"><text x="34" y="42" font-size="13" letter-spacing="2.2">CURIOUS ROUTES</text><text x="34" y="58" font-size="10" letter-spacing="1.8">FIELD SKETCH / NO. 04</text></g>
+<g fill="#fff9ef" stroke="#756888" stroke-width="2"><circle cx="68" cy="275" r="14"/><circle cx="194" cy="181" r="14"/><circle cx="327" cy="143" r="14"/><circle cx="486" cy="103" r="14"/></g>
+<g fill="#66558f" font-family="Georgia,serif" font-weight="bold" font-size="13" text-anchor="middle"><text x="68" y="279">?</text><text x="194" y="185">✦</text><text x="327" y="147">+</text><text x="486" y="108">✓</text></g>
+<g font-family="Georgia,serif" font-style="italic" font-size="14" fill="#65587b"><text x="43" y="307">ask</text><text x="165" y="211">explore</text><text x="313" y="177">try</text><text x="462" y="136">learn</text></g>
+<g transform="translate(502 300)" fill="none" stroke="#876d56" stroke-width="2"><circle r="44"/><circle r="32" stroke-width=".8"/><path d="M0 -48 V48 M-48 0 H48 M-12 12 L0 -26 L12 12 L0 6Z"/></g><g font-family="Georgia,serif" fill="#876d56" text-anchor="middle" font-size="13"><text x="502" y="244">N</text><text x="502" y="364">S</text><text x="450" y="304">W</text><text x="554" y="304">E</text></g>
+<path d="M52 119 l14-24 14 24 12-16 19 33H43Z M118 121 l15-25 19 25 13-11 20 31h-91Z" fill="#d5ceba" stroke="#a2a08c" stroke-width="1"/>
+<g fill="none" stroke="#886e70" stroke-width="1.4" opacity=".65"><path d="M380 342 l12-19 11 19 15-24 14 24 8-13 14 22"/><path d="M90 66 l0 19 m-9-9h18 m-10-8l20 18 m0-18l-20 18"/></g>
+<text x="39" y="403" font-family="Georgia,serif" font-size="10" letter-spacing="1" fill="#938269">NOT TO SCALE  •  DETOURS ENCOURAGED</text>
+</svg>
