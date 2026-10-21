@@ -705,3 +705,12 @@ body {
   .footer-band-grid { grid-template-columns: 1fr; }
   .footer-bottom { flex-direction: column; }
 }
+
+/* Backup League featured project artwork: isolated from the existing site theme. */
+.backup-feature-art{min-height:190px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:8px;text-align:center;padding:24px 18px;color:#f5fafc;background:radial-gradient(circle at 75% 20%,#2d7d83 0,transparent 44%),linear-gradient(140deg,#14233d,#203752 62%,#2d3a5b);border-radius:8px 8px 0 0;overflow:hidden;}
+.backup-feature-kicker{font-size:.72rem;letter-spacing:.14em;font-weight:700;color:#9ddcd9;}
+.backup-feature-emblem{font-size:3.2rem;line-height:1;color:#efc46f;text-shadow:0 0 26px #edb64a77;}
+.backup-feature-title{font-size:1.2rem;font-weight:800;letter-spacing:.07em;}
+.backup-feature-sub{font-size:.7rem;letter-spacing:.11em;color:#d5e4ef;}
+.backup-feature-art-large{border-radius:12px;min-height:310px;}
+.backup-feature-art-large .backup-feature-title{font-size:1.55rem;}
