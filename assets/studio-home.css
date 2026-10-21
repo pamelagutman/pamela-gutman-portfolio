@@ -226,3 +226,39 @@ body.studio-page{background:#f8f7ff;color:var(--studio-ink);}
 
 @media(max-width:560px){.studio-page .scene-polaroid{left:3%;width:57%;}.studio-page .scene-paper-note{right:0%;width:29%;font-size:clamp(.82rem,3vw,.98rem);transform:rotate(3deg);}}
 @media(max-width:370px){.studio-page .scene-polaroid{left:2%;width:57%;}.studio-page .scene-paper-note{right:0%;width:30%;}}
+
+/* v05.2: Keep the complete Polaroid (including handwriting) in normal flow.
+   A positioned portrait grew beyond the desk-scene height on wide and
+   medium viewports, allowing the following section to mask the caption. */
+.studio-page .hero-scene {
+  display: flow-root;
+  min-height: 0;
+  height: auto;
+  padding: clamp(1.7rem, 3vw, 2.65rem) 0 clamp(2.8rem, 4vw, 3.6rem);
+  box-sizing: border-box;
+}
+.studio-page .scene-polaroid {
+  position: relative;
+  top: auto;
+  left: auto;
+  width: min(59%, 480px);
+  min-width: 0;
+  max-width: none;
+  margin: 0 0 0 8%;
+  box-sizing: border-box;
+  transform: rotate(-5deg);
+}
+.studio-page .scene-polaroid figcaption {
+  font-size: clamp(1.07rem, 1.5vw, 1.4rem);
+  line-height: 1.12;
+  padding: .75rem .08rem .2rem;
+}
+@media (max-width: 780px) {
+  .studio-page .hero-scene { padding: 1.65rem 0 3.2rem; }
+  .studio-page .scene-polaroid { width: 61%; margin-left: 8%; }
+}
+@media (max-width: 560px) {
+  .studio-page .hero-scene { padding: 1.5rem 0 2.8rem; }
+  .studio-page .scene-polaroid { width: 58%; margin-left: 6%; }
+  .studio-page .scene-polaroid figcaption { font-size: clamp(.9rem, 3.6vw, 1.12rem); line-height: 1.14; padding: .45rem .08rem .1rem; }
+}
