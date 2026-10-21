@@ -1,0 +1,30 @@
+PAMELA GUTMAN - CREATIVE STUDIO PORTFOLIO v05.1
+CORRECTED GITHUB UPLOAD FILES - 2026-10-21
+
+This corrected bundle REPLACES the earlier "Sitewide v05 Changed Files" ZIP.
+The earlier ZIP mistakenly omitted the root homepage index.html and two assets
+needed for the creative-studio homepage. This version includes them all.
+
+UPLOAD:
+1. Extract this ZIP on your computer.
+2. In GitHub, open pamelagutman/pamela-gutman-portfolio (main branch).
+3. Choose Add file > Upload files.
+4. Drag the CONTENTS of the extracted folder, not its enclosing folder.
+5. Confirm GitHub lists a change to ROOT index.html (NOT a nested index.html).
+6. Commit, e.g., "Correct creative studio homepage and site styles".
+7. In Cloudflare, check that a NEW successful production deployment matches
+   this GitHub commit. Do not assume an old green check reflects new work.
+8. Hard refresh https://pamela-gutman-portfolio.pages.dev/ and check that
+   the hero says "I make complicated things easier to learn."
+
+IMPORTANT:
+- No need to modify Cloudflare settings or delete anything.
+- This ZIP contains the updated interior pages too, so it is safe whether the
+  earlier v05 upload did or did not deploy.
+- The working H.E.L.P.E.R. console is NOT included and remains untouched.
+- Asset files are at correct paths (assets/...); preserve those paths.
+- Check the homepage on a phone and desktop once deployment succeeds.
+
+NOTES:
+- The source portrait and project photos remain your real existing assets.
+- Full WCAG/Section 508 compliance still requires a manual review.
