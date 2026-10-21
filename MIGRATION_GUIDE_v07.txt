@@ -1,0 +1,43 @@
+CREATIVE STUDIO v07 / CASE STUDIES + RESEARCH
+===========================================
+
+The public site stays static HTML on GitHub/Cloudflare. NO deploy/build configuration changes.
+To publish: extract changed-files ZIP, upload its CONTENTS into the GitHub repository root,
+check paths before committing, then verify new Cloudflare commit and test the Projects page.
+
+UPDATED EXISTING CASE STUDIES:
+- Online Orientations: original responsibilities, toolkit, reported reactions, recovered
+  infographic/schedule images, legacy presentation/handout/kickoff links.
+- The Backup League: roles, design decisions, playtest evidence and forward-looking status.
+- APL Amazing Race: re-used passport mechanics, design intent and anecdotal feedback.
+- Mission Possible: how the live experience was adapted to an ATD conference session.
+- AI/Gamification talk: role, prototyping choices, and appropriately qualified claims.
+
+NEW CASE STUDY: projects/hybrid-superhero-finale/index.html
+- Customer Service Week 2022, hybrid staff discovery, four-ending Storyline game.
+
+REBUILT RESEARCH CASE STUDY: projects/virtual-onboarding-research/index.html
+- Academic doctoral GROUP STUDY, separate from the March 2022 Learning Guild talk.
+- IRB, snowball recruitment, Qualtrics, Mentimeter/Padlet, specific personal contribution.
+- No invented respondent count, quantitative findings, or study date.
+
+Additional: project gallery entry, resources page, speaking link label, conference archive label.
+Four true-to-source JPEGs recovered from your Takeout ZIP now live in /assets/.
+No raw survey datasets, original presentation binary files, or restricted internal files are included.
+
+PLEASE REVIEW BEFORE PUBLICATION:
+1. The recovered images used to be on your public Google Site. Confirm they are still
+   appropriate for external public release, especially any organizational branding.
+2. Test each legacy Slides/Drive/Articulate link in a private/incognito browser.
+   They are labeled 'legacy' because public permissions could not be independently verified.
+3. The original research presentation was a GROUP project. Verify any new sharing of
+   collaborative materials with team members as appropriate.
+4. The 2022 Learning Guild forum talk and the academic research are RELATED but DISTINCT.
+5. Do not publish underlying human-subject research response data.
+6. The DevLearn Nov 2026 presentation is scheduled, not yet delivered (as of Oct 21).
+
+H.E.L.P.E.R. CONSOLE: unchanged byte-for-byte.
+CREATIVE-STUDIO HOMEPAGE: unchanged.
+
+OFFLINE PREVIEW ZIP: extract and open index.html locally. Its internal links have
+been converted to relative paths ONLY in that separate preview copy.

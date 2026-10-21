@@ -1,0 +1,24 @@
+PORTFOLIO v07 - CONTENT MIGRATION / 2026-10-21
+
+Source: user-provided Google Takeout ZIP (legacy published portfolio), plus existing portfolio v06.
+Detailed original descriptions recovered from Projects, Research Project, Hybrid Finale, Infographic, and Scavenger Hunt Kickoff Video pages.
+
+New: projects/hybrid-superhero-finale/index.html.
+Rebuilt: projects/virtual-onboarding-research/index.html as distinct graduate research (NOT the March 2022 Learning Guild conference session).
+Expanded: projects/online-orientations/index.html with role, tools, reported outcomes, and two genuine recovered artifact images.
+Expanded: existing case studies with role/design/evidence notes, and updated Projects, Resources, Speaking, archive navigation.
+Legacy links recovered from old public site, NOT verified for live public access.
+  slides https://docs.google.com/presentation/d/1qGye7jZTwBe57iCQwHXLgpUxqLYQifiidJPt9Up7pPw/present
+  handout https://drive.google.com/file/d/1zTTPWdQikO42ArUucJdLx-nN6p-8LTj7/preview
+  kickoff https://drive.google.com/file/d/1qI8jVwozC28L5Z7H6g6TYo43BllO1vYU/preview
+  finale https://360.articulate.com/review/content/336c7b5f-b5a6-481a-8077-6cbeeb3971af/review
+  research https://docs.google.com/presentation/d/1dzCBTLEwMJhFjD9In_zo2bfhSi6FV35xmIFSzzE_-4s/present
+  youtube https://www.youtube.com/@mightyraccoon
+
+IMPORTANT REVIEW ITEMS BEFORE PUBLISHING:
+1. Recovered images come from a previously public portfolio. Confirm they remain approved for public release.
+2. Do not publish raw survey data, nonpublic internal documents, or third-party source project files.
+3. Verify Google Drive/Slides/Articulate Review link permissions in an incognito window.
+4. Academic research date and sample size were not present in the old site and are intentionally NOT invented.
+5. Results are described as observed feedback, not causal effects.
+6. DevLearn 2026 is scheduled in the future as of October 21, 2026, not yet delivered.
