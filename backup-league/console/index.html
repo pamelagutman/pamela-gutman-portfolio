@@ -3,27 +3,29 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="theme-color" content="#10192e">
+<meta name="theme-color" content="#07162a">
 <meta name="description" content="The Backup League final mission: enter your constellation symbols to remotely release the Vanguard.">
 <title>H.E.L.P.E.R. | The Backup League Rescue Console</title>
 <style>
-:root{color-scheme:dark;--ink:#0d172b;--panel:#14243b;--edge:#405974;--teal:#70e2e6;--gold:#f9c56c;--white:#f3f6fa;--muted:#b5c3d2;--bad:#ff8d97}
-*{box-sizing:border-box}body{min-height:100vh;margin:0;background:radial-gradient(ellipse at top left,#233b62 0%,#111f34 45%,#070e1d 100%);color:var(--white);font:16px/1.45 system-ui,-apple-system,"Segoe UI",sans-serif}
+:root{color-scheme:dark;--ink:#07162a;--panel:#102b43;--edge:#50748a;--teal:#7ce1e6;--gold:#f5c15c;--white:#f3f6fa;--muted:#b5c3d2;--bad:#ff8d97}
+*{box-sizing:border-box}body{min-height:100vh;margin:0;background:radial-gradient(ellipse at top left,#103e56 0%,#07162a 46%,#050f1e 100%);color:var(--white);font:16px/1.45 system-ui,-apple-system,"Segoe UI",sans-serif}
 body::before{content:"";position:fixed;inset:0;background-image:linear-gradient(transparent 97%,#8cc4d414 98%),linear-gradient(90deg,transparent 97%,#8cc4d414 98%);background-size:36px 36px;pointer-events:none}
-main{position:relative;max-width:640px;margin:clamp(10px,3vw,32px) auto;padding:22px;border:1px solid #547391;border-radius:16px;background:linear-gradient(150deg,#1a2c49f8,#0c172af8);box-shadow:0 16px 70px #0009}
-header{display:flex;justify-content:space-between;align-items:center;gap:12px;border-bottom:1px solid var(--edge);padding-bottom:13px}header b{letter-spacing:.10em;color:var(--gold);font-size:.76rem}header small{letter-spacing:.1em;color:var(--teal)}
+main{position:relative;max-width:640px;margin:clamp(10px,3vw,32px) auto;padding:22px;border:2px solid var(--gold);border-radius:5px;background:linear-gradient(150deg,#15384cf8,#08192ef8);box-shadow:0 16px 70px #0009}
+header{display:flex;justify-content:space-between;align-items:center;gap:12px;border-bottom:3px solid var(--gold);padding-bottom:13px}header b{letter-spacing:.10em;color:var(--gold);font-size:.76rem}header small{letter-spacing:.1em;color:var(--teal)}
 h1{font-size:clamp(1.45rem,5.8vw,2.1rem);line-height:1.18;margin:18px 0 7px;text-transform:uppercase;letter-spacing:.035em}
 p{color:var(--muted);margin:6px 0 14px}.field{display:block;font-size:.79rem;font-weight:700;letter-spacing:.11em;color:var(--gold);margin:18px 0 6px}
 input{width:100%;border:1px solid #6f8498;background:#0a1527;color:var(--white);border-radius:9px;padding:12px 13px;font:inherit;min-height:44px}
 input:focus,button:focus-visible{outline:3px solid var(--gold);outline-offset:3px}
 .status{background:#0c1b30;padding:10px 12px;border-left:3px solid var(--teal);font-size:.85rem;color:var(--muted);margin:15px 0 18px}.status strong{color:var(--teal)}
-.slots{display:grid;grid-template-columns:repeat(5,1fr);gap:8px;margin:14px 0}.slot{min-height:66px;background:#081428;border:1.5px solid #4f6985;border-radius:10px;display:flex;align-items:center;justify-content:center;position:relative}.slot:before{content:attr(data-num);position:absolute;top:4px;left:7px;color:#7890a8;font-size:.64rem}.slot.filled{border-color:var(--gold);box-shadow:inset 0 0 14px #f4b95022}
-.keypad{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px;margin:18px 0}.key{background:linear-gradient(160deg,#1e3955,#11233b);color:var(--white);min-height:81px;border:1.5px solid #547995;border-radius:12px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:4px;cursor:pointer;touch-action:manipulation}.key:hover{background:#234967;border-color:var(--teal)}.key:active{transform:scale(.97)}.key svg,.slot svg{width:36px;height:36px;fill:none;stroke:currentColor;stroke-width:2;stroke-linejoin:round;stroke-linecap:round}.slot svg{width:33px;height:33px;color:var(--gold)}.key .key-name{font-size:.65rem;font-weight:750;color:#cfe6f2;letter-spacing:.035em;line-height:1.05}.key svg{color:var(--teal)}
+.slots{display:grid;grid-template-columns:repeat(5,1fr);gap:8px;margin:14px 0}.slot{min-height:66px;background:#081428;border:1.5px solid #4f6985;border-radius:4px;display:flex;align-items:center;justify-content:center;position:relative}.slot:before{content:attr(data-num);position:absolute;top:4px;left:7px;color:#7890a8;font-size:.64rem}.slot.filled{border-color:var(--gold);box-shadow:inset 0 0 14px #f4b95022}
+.keypad{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px;margin:18px 0}.key{background:linear-gradient(160deg,#23506a,#11233b);color:var(--white);min-height:81px;border:1.5px solid #547995;border-radius:5px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:4px;cursor:pointer;touch-action:manipulation}.key:hover{background:#234967;border-color:var(--teal)}.key:active{transform:scale(.97)}.key svg,.slot svg{width:36px;height:36px;fill:none;stroke:currentColor;stroke-width:2;stroke-linejoin:round;stroke-linecap:round}.slot svg{width:33px;height:33px;color:var(--gold)}.key .key-name{font-size:.65rem;font-weight:750;color:#cfe6f2;letter-spacing:.035em;line-height:1.05}.key svg{color:var(--teal)}
 .actions{display:grid;grid-template-columns:1fr 1fr;gap:9px}.actions button,.submit,.again{min-height:47px;border-radius:9px;border:1px solid #6988a4;background:#24374f;color:#fff;padding:10px 8px;font-weight:750;letter-spacing:.02em;cursor:pointer}.submit{background:#eab75c;border-color:#ffcf71;color:#12213a;width:100%;font-size:.99rem;margin-top:10px}.submit:disabled{background:#536272;color:#d3dce7;cursor:not-allowed;border-color:#536272}.feedback{min-height:25px;margin:14px 0 4px;color:var(--muted);font-size:.88rem}.feedback.error{color:var(--bad)}.feedback.ok{color:var(--teal)}.foot{font-size:.72rem;color:#a0afbf;border-top:1px solid #455c74;padding-top:13px;margin-top:17px}
 #win{display:none;text-align:center;padding:6px 0 4px}#win.show{display:block;animation:emerge .5s ease-out}.seal{height:128px;width:128px;border-radius:50%;border:3px solid var(--gold);box-shadow:0 0 48px #f9c56c55,inset 0 0 15px #f9c56c22;display:grid;place-items:center;margin:20px auto;background:#132943}.seal svg{width:72px;height:72px;stroke:var(--teal);stroke-width:1.6;fill:none}.win-title{font-size:clamp(1.6rem,6vw,2.35rem);font-weight:900;color:var(--gold);margin:9px 0}.achievement{background:#23364e;border-left:4px solid var(--gold);margin:20px 0;padding:13px;text-align:left;border-radius:6px}.again{margin:15px 0 0}.resource-links{display:flex;gap:10px;flex-wrap:wrap;justify-content:center;margin:18px 0 4px}.resource-links a{display:inline-flex;min-height:46px;align-items:center;justify-content:center;text-align:center;padding:10px 15px;border-radius:9px;border:1px solid #87c8cd;color:#0e2034;background:#80e0d7;text-decoration:none;font-weight:800}.resource-links a.secondary{color:var(--white);background:#24374f;border-color:#66839d}.resource-links a:hover{filter:brightness(1.14)}.resource-links a:focus-visible{outline:3px solid var(--gold);outline-offset:3px}.win-subtitle{font-weight:700;color:var(--teal)!important}
 @keyframes emerge{from{opacity:.2;transform:scale(.98)}to{opacity:1;transform:scale(1)}}
 @media(max-width:430px){main{margin:0;border-radius:0;min-height:100vh;padding:17px}.key{min-height:72px}.slot{min-height:60px}.key svg{width:32px;height:32px}}
 @media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+.console-breadcrumb{font-size:.67rem;letter-spacing:.1em;color:#bcd9e4;font-weight:800;margin:0 0 15px}.console-breadcrumb a{color:var(--gold);text-underline-offset:3px}.console-breadcrumb a:focus-visible{outline:3px solid var(--gold)}
+.console-breadcrumb{font-size:.67rem;letter-spacing:.1em;color:#bcd9e4;font-weight:800;margin:0 0 15px}.console-breadcrumb a{color:var(--gold);text-underline-offset:3px}.console-breadcrumb a:focus-visible{outline:3px solid var(--gold)}
 </style>
 </head>
 <body>
@@ -39,6 +41,7 @@ input:focus,button:focus-visible{outline:3px solid var(--gold);outline-offset:3p
 <g id="sym-star"><path d="M0.00 -11.00 L1.91 -4.62 L7.78 -7.78 L4.62 -1.91 L11.00 0.00 L4.62 1.91 L7.78 7.78 L1.91 4.62 L0.00 11.00 L-1.91 4.62 L-7.78 7.78 L-4.62 1.91 L-11.00 0.00 L-4.62 -1.91 L-7.78 -7.78 L-1.91 -4.62 Z"/></g>
 </defs></svg>
 <main>
+<p class="console-breadcrumb"><a href="../index.html">DEVLEARN 2026 · SESSION 606</a> <span aria-hidden="true">/</span> THE BACKUP LEAGUE FINALE</p>
 <header><b>VANGUARD COMMAND SYSTEM</b><small>H.E.L.P.E.R.  /  MANUAL MODE</small></header>
 <div id="game">
 <h1>Emergency Containment Override</h1>
@@ -59,7 +62,7 @@ input:focus,button:focus-visible{outline:3px solid var(--gold);outline-offset:3p
 <p id="message" class="win-subtitle"></p>
 <p>Containment disengaged. The heroes are safe. Junior cadets remain outside the restricted zone pending independent clearance.</p>
 <div class="achievement"><strong style="color:var(--gold)">ACHIEVEMENT UNLOCKED: THE BACKUP LEAGUE</strong><br><span id="bonus"></span><br><span style="color:var(--muted)">The Vanguard thanks you for your excellent work. H.E.L.P.E.R. has opened twelve congratulatory support tickets.</span></div>
-<div class="resource-links"><a href="../resources/">Explore session resources ↗</a><a class="secondary" href="/">More projects by Pamela ↗</a></div>
+<div class="resource-links"><a href="../resources/">Explore session resources ↗</a><a class="secondary" href="../index.html">Back to DevLearn session ↗</a></div>
 <button class="again" type="button" id="reset">RESET CONTAINMENT DEMO</button>
 </section>
 <div class="foot">The Backup League • DevLearn 2026 • Created by Pamela Gutman. No sign-in or tracking scripts. Team callsigns and symbol entries are not transmitted by this console.</div>
