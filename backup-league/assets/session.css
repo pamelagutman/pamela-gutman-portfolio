@@ -34,3 +34,29 @@ h1,h2,h3,p{margin-top:0}h1,h2,h3{line-height:1.16}h2{font-size:clamp(1.75rem,3.4
 
 /* Available workshop download: matches the slide download button. */
 .toolkit-download{display:inline-flex;align-items:center;justify-content:center;margin-top:.55rem;padding:.72rem 1rem;background:#f4b846;color:#09172c;font-weight:800;text-decoration:none;border:2px solid #09172c;border-radius:5px;line-height:1.4}.toolkit-download:hover{background:#fff5d8;text-decoration:underline}.toolkit-download:focus-visible{outline:3px solid #fff;outline-offset:4px;box-shadow:0 0 0 7px #643d99}
+
+/* Additional standalone guidance for the attendee-facing toolkit. */
+.toolbox-intro{max-width:850px;color:#d5e1eb;font-size:1rem;line-height:1.65;margin-top:16px}
+.toolbox-guide-link{margin:24px 0;display:flex;align-items:center;justify-content:space-between;gap:24px;padding:24px 25px;background:#122e45;border-left:6px solid var(--gold);border-top:1px solid #618194;color:#f8f7f5}
+.toolbox-guide-link h3{color:#fff;margin:0 0 9px;font-size:1.26rem}
+.toolbox-guide-link p{color:#dce8ef;margin:0;max-width:665px;line-height:1.55}
+.toolbox-guide-link .guide-link-eyebrow{color:var(--gold);font-size:.75rem;font-weight:900;letter-spacing:.11em;margin-bottom:6px}
+.toolbox-guide-link .toolkit-download{flex-shrink:0;max-width:230px;text-align:center}
+.car-note{margin-top:22px}
+.car-note h3{font-size:1.24rem;color:#fff;margin:0 0 12px}
+.car-note p{color:#d5e5ec;line-height:1.58;margin:10px 0 0}
+.car-note strong{color:#fff}
+.car-note .car-source{margin-top:15px}
+.car-note .car-source a{color:#9ef4f4;font-weight:800}
+.logistics-intro{max-width:910px;color:#273d53!important;font-size:1rem;line-height:1.6;margin-top:15px}
+.logistics-list li{min-height:171px}
+.logistics-list span{display:block;font-size:.93rem;line-height:1.53}
+.logistics-followup{margin-top:25px;border-left:6px solid #078c96;background:#e5f2f1;color:#172e45;padding:20px 24px;max-width:1050px;line-height:1.6}
+.logistics-followup p{margin:0 0 10px}
+.logistics-followup p:last-child{margin-bottom:0}
+.logistics-followup a{font-weight:800;color:#075e70}
+.example-note{font-size:.86rem;color:#304b62;max-width:930px;line-height:1.57;margin:13px 0 0}
+@media(max-width:850px){.toolbox-guide-link{flex-direction:column;align-items:flex-start}.toolbox-guide-link .toolkit-download{max-width:none}}
+@media(max-width:490px){.toolbox-guide-link{padding:19px 17px}.logistics-followup{padding:19px 16px}}
+/* Keep the presenter navigation link inside very narrow viewports. */
+@media(max-width:490px){.presenter .text-link{white-space:normal;max-width:100%;overflow-wrap:anywhere}}

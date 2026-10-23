@@ -1,0 +1,16 @@
+DEVLEARN RESOURCES - GITHUB UPDATE
+
+Use these files to update an existing GitHub portfolio repository that already
+contains the DevLearn landing page and H.E.L.P.E.R. console.
+
+1. Extract the ZIP in a new folder.
+2. Upload files under backup-league/ into the SAME relative paths in GitHub.
+3. Confirm backup-league/resources/index.html, backup-league/assets/session.css,
+   and the six files in backup-league/downloads/ are present.
+4. Commit your changes. Wait for a successful Cloudflare production deployment.
+5. Open /backup-league/resources/ and verify all six links.
+
+This package does not include the interactive console or broader portfolio.
+It is a targeted update, not a full site backup.
+Do not bypass a browser or antivirus warning. If one occurs, stop and
+record the exact security product and detection name.
