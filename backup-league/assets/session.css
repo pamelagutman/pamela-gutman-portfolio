@@ -60,3 +60,14 @@ h1,h2,h3,p{margin-top:0}h1,h2,h3{line-height:1.16}h2{font-size:clamp(1.75rem,3.4
 @media(max-width:490px){.toolbox-guide-link{padding:19px 17px}.logistics-followup{padding:19px 16px}}
 /* Keep the presenter navigation link inside very narrow viewports. */
 @media(max-width:490px){.presenter .text-link{white-space:normal;max-width:100%;overflow-wrap:anywhere}}
+
+/* Optional behind-the-scenes victory song link, styled to match the session. */
+.anthem-section{margin-top:30px;margin-bottom:42px}
+.anthem-panel{display:flex;gap:22px;align-items:flex-start;border:2px solid #0f838f;border-radius:12px;background:#0c233a;color:#f7fbff;padding:28px 32px;box-shadow:0 10px 24px rgba(8,22,43,.13)}
+.anthem-icon{width:58px;height:58px;flex:0 0 58px;display:grid;place-items:center;border-radius:50%;border:2px solid #f3c967;color:#f3c967;font-size:38px;line-height:1}
+.anthem-panel .section-number{color:#8ce2de!important;margin:0 0 9px}
+.anthem-panel h2{color:#f3c967;margin:0 0 12px;font-size:clamp(1.45rem,2.7vw,2.1rem);line-height:1.17}
+.anthem-panel .anthem-body>p:not(.section-number){color:#f2f5fa;max-width:800px;line-height:1.6}
+.anthem-panel .anthem-button{display:inline-flex;align-items:center;margin-top:9px;max-width:100%;white-space:normal;text-align:center;overflow-wrap:anywhere}
+.anthem-panel .anthem-caveat{color:#c4d7de!important;font-size:.86rem;margin:14px 0 0}
+@media(max-width:580px){.anthem-panel{padding:22px 18px;gap:13px;flex-direction:column}.anthem-icon{width:47px;height:47px;flex-basis:47px;font-size:30px}}

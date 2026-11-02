@@ -26,6 +26,12 @@ input:focus,button:focus-visible{outline:3px solid var(--gold);outline-offset:3p
 @media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
 .console-breadcrumb{font-size:.67rem;letter-spacing:.1em;color:#bcd9e4;font-weight:800;margin:0 0 15px}.console-breadcrumb a{color:var(--gold);text-underline-offset:3px}.console-breadcrumb a:focus-visible{outline:3px solid var(--gold)}
 .console-breadcrumb{font-size:.67rem;letter-spacing:.1em;color:#bcd9e4;font-weight:800;margin:0 0 15px}.console-breadcrumb a{color:var(--gold);text-underline-offset:3px}.console-breadcrumb a:focus-visible{outline:3px solid var(--gold)}
+
+.suno-link{margin:17px 0 18px;padding:15px 17px;border:1px solid #5c9fa8;border-radius:8px;background:#0d2837}
+.suno-link strong{display:block;color:var(--gold);letter-spacing:.045em;font-size:.95rem;margin-bottom:4px}
+.suno-link p{font-size:.87rem;line-height:1.5;margin:5px 0 10px}
+.suno-link a{display:inline-block;padding:10px 13px;min-height:44px;border:1px solid var(--teal);border-radius:6px;color:var(--teal);font-weight:700;text-decoration:underline;text-underline-offset:3px}
+.suno-link a:hover,.suno-link a:focus-visible{background:#22465a;color:#fff}
 </style>
 </head>
 <body>
@@ -62,6 +68,11 @@ input:focus,button:focus-visible{outline:3px solid var(--gold);outline-offset:3p
 <p id="message" class="win-subtitle"></p>
 <p>Containment disengaged. The heroes are safe. Junior cadets remain outside the restricted zone pending independent clearance.</p>
 <div class="achievement"><strong style="color:var(--gold)">ACHIEVEMENT UNLOCKED: THE BACKUP LEAGUE</strong><br><span id="bonus"></span><br><span style="color:var(--muted)">The Vanguard thanks you for your excellent work. H.E.L.P.E.R. has opened twelve congratulatory support tickets.</span></div>
+<div class="suno-link" aria-label="Victory song on Suno">
+<strong>🎵 HEAR THE VICTORY ANTHEM</strong>
+<p>Our backup heroes even have their own song: <em>We Keep the Lights On</em>. Listen to the full track on Suno. Suno may ask you to sign in to hear the entire song.</p>
+<a href="https://suno.com/s/FGEql01OHAST5u4r" target="_blank" rel="noopener noreferrer">Listen to the full song on Suno ↗</a>
+</div>
 <div class="resource-links"><a href="../resources/">Explore session resources ↗</a><a class="secondary" href="../index.html">Back to DevLearn session ↗</a></div>
 <button class="again" type="button" id="reset">RESET CONTAINMENT DEMO</button>
 </section>
